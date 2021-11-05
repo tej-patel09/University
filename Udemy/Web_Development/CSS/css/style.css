@@ -1,0 +1,192 @@
+h1{
+    padding-top: 150px;
+    margin-top:0;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; 
+    color: #66BFBF;
+    /*100% in pixel is 16 px so 90px is 562.5% 
+    16px = 100% = 1em 
+    rem ignore parent em*/
+}
+h2{
+	font-size: 2.5rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #66BFBF;
+	/*font-weight: normal;*/
+	line-height: 2;
+  padding-bottom: 10px;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #11999E;
+}
+hr{
+  width: 2%;
+  /*border-width: 8px;
+  border-style: dotted;*/
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+}
+.h3get{
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+.p4get{
+  width: 50%;
+  margin: 0 auto 50px auto;
+}
+.p3get{
+  margin: 0 auto 50px auto;
+}
+a{
+	color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration:none;
+}
+a:hover {
+  color:#EAF6F6;
+}
+body{
+	margin: 0;
+   	text-align: center;
+   	font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+p{
+  line-height: 2;
+}
+.top-container{
+	background-color: #EAF6F6;
+}
+.middle-container{
+	margin: 100px 0;
+}	
+.bottom-container{
+  margin: 50px auto 0 auto;
+  background-color: #66BFBF;
+  padding: 50px;
+	}
+.bottom-cloud{
+	position: absolute;
+	left: 400px;
+}
+.top-cloud{
+	position: absolute;
+	left: 780px;
+	top:50px;
+}
+.skill-row{
+	width: 50%;
+	margin:100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.comp{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chillies{
+  width: 25%; 
+  float: right;
+  margin-right: 30px;
+}
+.contact-me{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+.footer-link{
+  margin: 0 20px 0 20px;
+}
+.pmarg{
+  padding-top: 30px;
+  margin-bottom: 0;
+  color: #EAF6F6;
+}
+/*.comp-des{
+  clear: left;  
+}
+.chill-des{
+  clear: right;
+}*/
+/*---------------------Lecture 48 absolute position example----*/
+/*body{
+  margin:0px;
+}
+.red{
+  margin:0px;
+  height:200px;
+  width:200px;
+  background-color:red;
+  position:absolute;
+  left:400px;
+  left 400 px etle 400 px left ma jagya mukse
+  top:400px;
+}
+.blue{
+  margin:0px;
+  height:200px;
+  width:200px;
+  background-color:blue;
+  position:absolute;
+  left:200px;
+  top:200px;
+}
+.green{
+  margin:0px;
+  height:200px;
+  width:200px;
+  background-color:green;
+  position:absolute;
+}*/
+
+/*-------Lecture 48 absolute & relative position example ---------- */
+/*
+.red{
+  background-color:red;
+  height: 200px;
+  width:200px;
+  position: absolute;
+  /*When absolute changed to relative blue goes down --> change right
+  to left 
+  right : 300px;
+}
+.blue{
+  background-color:blue;
+  height :200px;
+  width:200px;
+  position: relative;
+  left: 400px;
+  /* When relative changed to absolute green comes up 
+}
+.green{
+  background-color:green;
+  height: 200px;
+  width:200px;
+  position:fixed;
+}
+*/
+/*-------Lecture 50 embedding fonts from google fonts 
+provide link from google in head then declare font family 
+as shown in it............ after going to google like the text 
+select it then only you can get the link for embeding ---------- */

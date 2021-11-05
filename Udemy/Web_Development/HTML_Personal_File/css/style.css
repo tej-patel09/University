@@ -1,0 +1,31 @@
+		body{
+			background-color: #EAF6F6;
+		}
+		a{
+			color: black;
+		}
+		hr{
+			border-style: dotted none none;
+			/*When two values speified style applies to top-bottom, left-right*/
+			/*When three values speified style applies to top, left-right,bottom */
+			/*When four values speified style applies to top, right, bottom,left*/
+			/*border-style: none; 
+			  border-top-style: dotted;*/
+			border-color: ;
+			border-width: ;
+			width: ;
+		}
+
+		/*priority   inline > internal > external*/
+/*class selector*/		
+		.founder{
+			color: red;
+		}
+		.about{
+			color: green;
+		}
+		/*id selecor*/
+		#underline
+		{
+			font-style: Arial;
+		}
