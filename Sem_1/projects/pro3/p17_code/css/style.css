@@ -1,0 +1,192 @@
+/*Tag */
+* {
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Class */
+.btn{
+	background-color: #95103b;
+}
+/*Header*/
+/*.header{
+	border: 1px solid black;
+	background-color: lightgrey;
+	margin: 0;
+	height: 20%;
+}*/
+.hedr{
+	height: 5em;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1% 15%;
+}
+.hedr .fas{
+	color: #95103b;
+	padding: 2%; 
+}
+.logo{
+	text-decoration: underline;
+  	text-decoration-style:double;
+  	font-size: 30px;
+}
+.fontcolor{
+	color: #95103b;
+}
+
+/* Navigation Bar */
+.nav{
+	height: 50px;
+	font-size: 15px;
+	background-color: #95103b;
+	color: white;
+	vertical-align: middle;
+	padding: 1% 0 1% 0;
+	text-align: center;
+}
+
+/*Section 1*/
+.sec1{
+	background-image: url("../images/img_holder.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 80%;
+	text-align: center;
+	color: white;
+	padding: 12% 15%;
+}
+.s11{
+	font-size: 25px;
+	padding: 3px 0;
+}
+.s12{
+	font-size: 50px;
+	padding: 3px 0;
+}
+.s13{
+	font-size: 13px;
+	padding: 3px 0;
+}
+.s14{
+	padding: 45px 0;
+}
+
+/* Section 2 */
+.sec2{
+	height: 85%;
+	text-align: center;
+	padding: 5% 15%;
+}
+.sec2 .fas{
+	color: white;
+	background-color: #aa5670;
+	border:20px solid #95103b;
+	border-radius: 100%;
+	padding: 8%;
+}
+.s2r2{
+	padding: 5% 0; 
+}
+.s2r2 h4{
+	padding: 8% 0 3% 0;
+}
+.btns2{
+	padding-top: 30px;
+}
+
+/* Section 3 */
+.sec3{
+	background-color: #f4f4f4;
+	height: 90%;
+	padding: 5% 15%;
+}
+.s31{
+	padding: 0 50px;
+}
+.imge{
+	align-items: center;
+	background-image: url("../images/img_holder.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	padding: 0 50px; 
+}
+
+/*Section 4*/
+.sec4{
+	text-align: center;
+	align-items: center;
+	height: 110%;
+	padding: 5% 15%;
+}
+.lfts4{
+	text-align: left;
+}
+.pads42{
+	padding: 50px;
+}
+
+/*Section 5*/
+.sec5{
+	padding:5% 12%; 
+	background-color: #f4f4f4;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 100%;
+}
+.s5cl4{
+	padding: 0;
+	border: 15px solid #f4f4f4;
+	background-color: white;
+}
+.s5cl4 img{
+	width: 90%;	
+	height: 60%;
+	padding: 0;
+	margin: 0;
+}
+.padh4s5{
+	padding: 3%;
+}
+.s5cl4 p{
+	text-align: left;
+}
+/* Footer */
+.footer{
+	padding:5% 15%;
+	color: white;
+	background-color: #323639;
+	height: 50%;
+	background-repeat: no-repeat;
+}
+.footer img{
+	width: 100%;
+	height: 90%;
+	padding: 1%;
+}
+.footer h4{
+	padding-bottom: 18%;
+}
+.footer i{
+	background-color: #2a2d34;
+	padding: 5px;
+}
+.footer input{
+	width: 100%;
+	margin: 1% 0;
+	padding: 2%;
+	background-color: #c1c2c4; 
+}
+/* Copyright */
+.copyright{
+	margin: 0;
+	padding-left: 15%; 
+	background-color: #2a2d34;
+	color: white;
+	height: 10%;
+}
+
+/* Id  */
